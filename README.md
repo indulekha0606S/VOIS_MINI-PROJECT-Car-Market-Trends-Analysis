@@ -1,7 +1,7 @@
 # 🚗 Car Market Trends Analysis with CarDekho Data
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
-[![Google Colab](https://img.shields.io/badge/Google%20Colab-Notebook-orange.svg)](https://colab.research.google.com/drive/1X3w5meFC9RS5fi0a3PGsbcmUGJ22le5m?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1X3w5meFC9RS5fi0a3PGsbcmUGJ22le5m?usp=sharing)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ---
@@ -109,6 +109,18 @@ The analysis includes 12 focused visual studies:
 
 ---
 
+## 💻 Example Visualization on Google Colab
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1X3w5meFC9RS5fi0a3PGsbcmUGJ22le5m?usp=sharing)
+
+> **Interactive Notebook:** You can view, execute, and reproduce all visualizations directly in the browser via [Google Colab](https://colab.research.google.com/drive/1X3w5meFC9RS5fi0a3PGsbcmUGJ22le5m?usp=sharing).
+
+[![Selling Price Distribution on Google Colab](assets/colab_visualization_example.png)](https://colab.research.google.com/drive/1X3w5meFC9RS5fi0a3PGsbcmUGJ22le5m?usp=sharing)
+
+*Figure: Executing the Selling Price Distribution Box Plot inside [Google Colab](https://colab.research.google.com/drive/1X3w5meFC9RS5fi0a3PGsbcmUGJ22le5m?usp=sharing).*
+
+---
+
 ## 💡 Key Results & Insights
 * **Present Price is the Strongest Predictor:** Showroom value (`Present_Price`) strongly governs resale value (`r = 0.88`).
 * **Diesel & Automatic Premiums:** Despite Petrol dominating market volume (79.9%), Diesel and Automatic vehicles command substantial resale premiums.
@@ -143,6 +155,8 @@ jupyter notebook CARDEKHO.ipynb
 ## 📁 Repository Structure
 ```
 VOIS_MINI-PROJECT-Car-Market-Trends-Analysis/
+├── assets/
+│   └── colab_visualization_example.png                                # Google Colab execution preview
 ├── 1776311302-P3-Car Market Trends Analysis with Car Dekho Data.csv   # Project Dataset
 ├── CARDEKHO.ipynb                                                     # Colab / Jupyter Notebook
 ├── AICTE_ID_STU6a68cd1bc7bd01785253147_Indulekha_Sagampalli.pptx     # Submission Slide Deck
