@@ -1,4 +1,4 @@
-# 🚗 Car Market Trends Analysis with CarDekho Data
+# Car Market Trends Analysis with CarDekho Data
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1X3w5meFC9RS5fi0a3PGsbcmUGJ22le5m?usp=sharing)
@@ -6,23 +6,14 @@
 
 ---
 
-## 📌 Student & Submission Details
-* **Student Name:** Indulekha Sagampalli
-* **College Name:** Jawaharlal Nehru New College Of Engineering (JNNCE)
-* **USN:** `4JN24CD014`
-* **AICTE ID:** `STU6a68cd1bc7bd01785253147`
-* **Domain:** Data Analytics / Data Visualization
-
----
-
-## 📖 Project Overview
+## Project Overview
 The pre-owned car market is influenced by numerous interconnected factors including vehicle age, original showroom price, cumulative kilometers driven, fuel type, transmission system, seller category, and prior ownership. 
 
 This project performs an end-to-end **Exploratory Data Analysis (EDA)** and **Market Trend Analysis** on the CarDekho dataset using Python, Pandas, Matplotlib, and Seaborn. The objective is to extract data-driven market patterns that help buyers, sellers, and automotive dealerships evaluate fair vehicle resale pricing.
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 Estimating the fair market resale price of a used automobile is challenging due to complex depreciating and non-linear factors. Raw data alone does not readily showcase how vehicle age, fuel choice, transmission type, or dealer involvement affect valuations. 
 
 This study leverages data cleaning, statistical modeling, and rich visual analytics to:
@@ -32,7 +23,7 @@ This study leverages data cleaning, statistical modeling, and rich visual analyt
 
 ---
 
-## 👥 Target End Users
+## Target End Users
 1. **Used Car Buyers:** Make data-backed purchasing choices and identify vehicles offering the best value for money.
 2. **Individual Sellers:** Set competitive yet profitable selling prices based on market norms.
 3. **Pre-Owned Car Dealerships:** Optimize inventory pricing strategies and improve turnover rates.
@@ -40,7 +31,7 @@ This study leverages data cleaning, statistical modeling, and rich visual analyt
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 * **Language:** Python 3.x
 * **Data Processing & Manipulation:** `pandas`, `numpy`
 * **Data Visualization:** `matplotlib`, `seaborn` (using the *rocket* color aesthetic)
@@ -48,7 +39,7 @@ This study leverages data cleaning, statistical modeling, and rich visual analyt
 
 ---
 
-## 📂 Dataset Description
+## Dataset Description
 The dataset contains historical listings with 9 original features:
 * `Car_Name`: Brand and model designation of the vehicle.
 * `Year`: Year of manufacture.
@@ -62,7 +53,7 @@ The dataset contains historical listings with 9 original features:
 
 ---
 
-## 🧹 Data Cleaning & Preprocessing Pipeline
+## Data Cleaning & Preprocessing Pipeline
 1. **Missing Value Audit:**
    * Checked all 9 columns for null or missing values (`df.isnull().sum()`).
    * Result: Zero missing values across the entire dataset.
@@ -78,7 +69,7 @@ The dataset contains historical listings with 9 original features:
 
 ---
 
-## 📊 Exploratory Data Analysis & Visualizations
+## Exploratory Data Analysis & Visualizations
 The analysis includes 12 focused visual studies:
 
 1. **Cars by Fuel Type (Pie Chart):**
@@ -109,7 +100,7 @@ The analysis includes 12 focused visual studies:
 
 ---
 
-## 💻 Example Visualization on Google Colab
+## Example Visualization on Google Colab
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1X3w5meFC9RS5fi0a3PGsbcmUGJ22le5m?usp=sharing)
 
@@ -121,7 +112,7 @@ The analysis includes 12 focused visual studies:
 
 ---
 
-## 💡 Key Results & Insights
+## Key Results & Insights
 * **Present Price is the Strongest Predictor:** Showroom value (`Present_Price`) strongly governs resale value (`r = 0.88`).
 * **Diesel & Automatic Premiums:** Despite Petrol dominating market volume (79.9%), Diesel and Automatic vehicles command substantial resale premiums.
 * **Depreciation Inflexion:** Vehicle depreciation accelerates noticeably after 5-6 years of vehicle age or beyond 60,000 km.
@@ -129,11 +120,11 @@ The analysis includes 12 focused visual studies:
 
 ---
 
-## 🚀 How to Run the Project
+## How to Run the Project
 
 ### 1. Run in Google Colab (Recommended)
 Open the interactive Google Colab notebook directly:
-👉 [**Launch Google Colab Notebook**](https://colab.research.google.com/drive/1X3w5meFC9RS5fi0a3PGsbcmUGJ22le5m?usp=sharing)
+[**Launch Google Colab Notebook**](https://colab.research.google.com/drive/1X3w5meFC9RS5fi0a3PGsbcmUGJ22le5m?usp=sharing)
 
 ### 2. Run Locally
 ```bash
@@ -152,7 +143,7 @@ jupyter notebook CARDEKHO.ipynb
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 ```
 VOIS_MINI-PROJECT-Car-Market-Trends-Analysis/
 ├── assets/
@@ -167,5 +158,5 @@ VOIS_MINI-PROJECT-Car-Market-Trends-Analysis/
 
 ---
 
-## 📜 License
+## License
 This project is licensed under the MIT License.
