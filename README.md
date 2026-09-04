@@ -126,10 +126,10 @@ Open the interactive Google Colab notebook directly:
 ### 2. Run Locally
 ```bash
 # Clone this repository
-git clone https://github.com/indulekha0606S/Car-Market-Trends-Analysis.git
+git clone https://github.com/indulekha0606S/VOIS_MINI-PROJECT-Car-Market-Trends-Analysis.git
 
 # Navigate into the project directory
-cd Car-Market-Trends-Analysis
+cd VOIS_MINI-PROJECT-Car-Market-Trends-Analysis
 
 # Install dependencies
 pip install -r requirements.txt
@@ -142,7 +142,7 @@ jupyter notebook CARDEKHO.ipynb
 
 ## 📁 Repository Structure
 ```
-Car-Market-Trends-Analysis/
+VOIS_MINI-PROJECT-Car-Market-Trends-Analysis/
 ├── 1776311302-P3-Car Market Trends Analysis with Car Dekho Data.csv   # Project Dataset
 ├── CARDEKHO.ipynb                                                     # Colab / Jupyter Notebook
 ├── AICTE_ID_STU6a68cd1bc7bd01785253147_Indulekha_Sagampalli.pptx     # Submission Slide Deck
